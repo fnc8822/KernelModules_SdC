@@ -6,10 +6,10 @@ MODULE_DESCRIPTION("Modulo Hello World");
 MODULE_AUTHOR("Grupo Foobar sdc");
 
 int init_module(void) {
-    printk(KERN_INFO "Hola mundo: modulo cargado en kernel.\n");
+    printk(KERN_INFO "Hola mundo: modulo cargado en kernel. Foobar.\n");
     return 0;
 }
 
 void cleanup_module(void) {
-    printk(KERN_INFO "Hola mundo: modulo descargado del kernel.\n");
+    printk(KERN_INFO "Hola mundo: modulo descargado del kernel. Foobar. \n");
 }
