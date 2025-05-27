@@ -1,0 +1,11 @@
+Module                  Size  Used by
+mimodulo               12288  0
+st                     73728  0
+lp                     28672  0
+parport_pc             53248  1
+nvram                  16384  0
+xt_conntrack           12288  1
+nft_chain_nat          12288  3
+xt_MASQUERADE          16384  1
+nf_nat                 61440  2 nft_chain_nat,xt_MASQUERADE
+
